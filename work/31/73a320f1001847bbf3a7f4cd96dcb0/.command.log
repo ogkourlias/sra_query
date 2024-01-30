@@ -1,0 +1,8 @@
+
+2023-09-21T09:41:58 prefetch.2.11.3: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+2023-09-21T09:41:58 prefetch.2.11.3: 1) Downloading 'SRR8859684'...
+2023-09-21T09:41:58 prefetch.2.11.3: SRA Normalized Format file is being retrieved, if this is different from your preference, it may be due to current file availability.
+2023-09-21T09:41:58 prefetch.2.11.3:  Downloading via HTTPS...
+2023-09-21T09:41:59 prefetch.2.11.3 warn: libs/kapp/unix/sysmain.c:75:Quitting: process canceled while executing process - libs/kapp/unix/sysmain.c:75 within Quitting
+2023-09-21T09:41:59 prefetch.2.11.3 warn: libs/kapp/unix/sysmain.c:75:Quitting: process canceled while executing process - libs/kapp/unix/sysmain.c:75 within Quitting
+2023-09-21T09:41:59 prefetch.2.11.3 warn: libs/kapp/unix/sysmain.c:75:Quitting: process canceled while executing process - libs/kapp/unix/sysmain.c:75 within Quitting

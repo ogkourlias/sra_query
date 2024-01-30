@@ -1,0 +1,4 @@
+2023-09-21T09:41:56 prefetch.2.11.3: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+2023-09-21T09:41:56 prefetch.2.11.3 warn: libs/vfs/remote-services.c:4428:KServiceProcessStreamAll:  incorrect while parsing within network system module - libs/kns/http-client.c:1686 within KClientHttpStreamTimedReadChunked
+2023-09-21T09:41:56 prefetch.2.11.3 warn: libs/vfs/remote-services.c:4428:KServiceProcessStreamAll:  incorrect while parsing within network system module - libs/kns/http-client.c:1686 within KClientHttpStreamTimedReadChunked
+2023-09-21T09:41:56 prefetch.2.11.3 warn: libs/vfs/remote-services.c:4428:KServiceProcessStreamAll: string insufficient while executing query within virtual file system module - libs/vfs/remote-services.c:4428 within KServiceProcessStreamAll

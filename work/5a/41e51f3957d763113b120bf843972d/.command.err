@@ -1,0 +1,2 @@
+2023-09-21T09:38:59 prefetch.2.11.3 err: libs/vfs/names4-response.c:1944:ContainerProcessStatus: name not found while resolving query within virtual file system module - failed to resolve accession 'GTEX-1211K-1426-SM-5FQTF.1' - Cannot resolve accession ( 404 )
+2023-09-21T09:38:59 prefetch.2.11.3: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.

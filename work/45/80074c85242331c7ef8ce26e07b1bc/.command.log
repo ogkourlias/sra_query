@@ -1,0 +1,2 @@
+
+.command.run: line 79: 145208 Hangup                  ( nxf_launch ) > $cout 2> $cerr
