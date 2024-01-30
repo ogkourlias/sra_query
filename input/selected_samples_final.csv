@@ -1,4 +1,2 @@
 "id","predictedTissue","predictedTissueScore","annotatedTissue","misclasified","study","sra.library_layout","Tissue","too_low"
 "SRR7460825","Retina","0.990148913499102","Retina","FALSE","SRP151763","paired","Retina","FALSE"
-"SRR7460826","Retina","0.99619921682924","Retina","FALSE","SRP151763","paired","Retina","FALSE"
-

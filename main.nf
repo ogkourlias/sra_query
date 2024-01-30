@@ -17,7 +17,7 @@ process fetch {
   
   script:
   """
-  fastq-dump --gzip ${sra_path.simpleName}.sra
+  fastq-dump --gzip ${sra_path}
   """
 }
 
@@ -33,7 +33,7 @@ process prefetch {
   val id_str
 
   output:
-  path "${id_str.id}/*"
+  path "${id_str.id}/${id_str.id}.sra"
   
   script:
   """
