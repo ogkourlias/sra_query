@@ -1,5 +1,0 @@
-
-2023-09-21T09:38:41 prefetch.2.11.3: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
-2023-09-21T09:38:41 prefetch.2.11.3 warn: libs/kapp/unix/sysmain.c:75:Quitting: transfer interrupted while reading file within network system module - libs/kns/unix/syssock.c:492 within KSocketTimedRead
-2023-09-21T09:38:41 prefetch.2.11.3 warn: libs/kapp/unix/sysmain.c:75:Quitting: process canceled while executing process - libs/kapp/unix/sysmain.c:75 within Quitting
-2023-09-21T09:38:41 prefetch.2.11.3 warn: libs/kapp/unix/sysmain.c:75:Quitting: process canceled while executing process - libs/kapp/unix/sysmain.c:75 within Quitting

@@ -1,4 +1,0 @@
-
-.command.run: line 79: 130640 Hangup                  tee .command.out < $cout
-.command.run: line 79: 130641 Hangup                  tee .command.err < $cerr 1>&2
-.command.run: line 79: 130643 Hangup                  ( nxf_launch ) > $cout 2> $cerr

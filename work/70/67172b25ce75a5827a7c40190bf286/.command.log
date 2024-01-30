@@ -1,7 +1,0 @@
-
-2023-09-21T10:03:00 prefetch.2.11.3: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
-2023-09-21T10:03:01 prefetch.2.11.3: 1) Downloading 'SRR7460828'...
-2023-09-21T10:03:01 prefetch.2.11.3: SRA Normalized Format file is being retrieved, if this is different from your preference, it may be due to current file availability.
-2023-09-21T10:03:01 prefetch.2.11.3:  Downloading via HTTPS...
-.command.run: line 79: 140600 Hangup                  tee .command.out < $cout
-.command.run: line 79: 140603 Hangup                  ( nxf_launch ) > $cout 2> $cerr
