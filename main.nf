@@ -1,6 +1,6 @@
 nextflow.enable.dsl=2
 
-process fetch {
+process fastq_dump {
   containerOptions '--bind /groups/'
   publishDir "${params.out_dir}", mode: 'symlink'
   errorStrategy 'retry'
@@ -30,21 +30,19 @@ process prefetch {
   maxRetries 16
   
   input:
-  val id_str
+  val id
 
   output:
-  path "${id_str.id}/${id_str.id}.sra"
+  path "${id}/${id}.{}"
   
   script:
   """
-  prefetch ${id_str.id}
+  prefetch ${id}
   """
 }
 
 
 workflow {
-    Channel.fromPath(params.input_csv).splitCsv(header: true, quote: '\"') | 
-    view {row -> "$row.id"} |
-    prefetch |
-    fetch
+    ids = Channel.fromPath(params.input_txt).splitText().view()
+    prefetch(ids)
     }
