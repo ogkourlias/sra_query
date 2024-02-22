@@ -3,7 +3,7 @@ nextflow.enable.dsl=2
 process fastq_dump {
   debug true
   containerOptions '--bind /groups/'
-  publishDir "${params.out_dir}", mode: 'symlink'
+  publishDir "${params.out_dir}", mode: 'move'
   errorStrategy 'finish'
   time '6h'
   memory '8 GB'
